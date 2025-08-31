@@ -1,32 +1,33 @@
 .banner__title {
   font-size: 2rem;
+  color: #222222; /* Texto oscuro para contraste */
 }
 
 .banner__title--description {
   font-size: 1rem;
-  color: #333; /* Antes blanco, ahora gris oscuro para contraste con fondo claro */
+  color: #444444; /* Gris medio */
 }
 
 .product__price {
   font-size: 1rem;
-  color: #444; /* Antes #fefefe */
+  color: #4a90e2; /* Azul primario para resaltar precios */
 }
 
 .product {
   text-align: center;
-  border: 1px solid #ccc; /* Antes #fefefe */
+  border: 1px solid #cccccc; /* Gris suave */
   padding: 15px;
   border-radius: 10px;
-  background-color: #f2dede; /* Antes #923a3a (rojo oscuro), ahora un tono pastel suave */
+  background-color: #f2dede; /* Rosa pastel claro */
 }
 
 .cart__item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #cccccc;
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -36,8 +37,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #fafafa; /* Fondo general más claro */
-  color: #222; /* Texto base */
+  background-color: #fafafa; /* Fondo general */
+  color: #222222; /* Texto principal */
 }
 
 header .container {
@@ -45,6 +46,9 @@ header .container {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  background-color: #4a90e2; /* Azul primario */
+  color: #ffffff;
+  border-bottom: 2px solid #cccccc;
 }
 
 .container__img {
@@ -56,7 +60,7 @@ header .container {
 .banner {
   text-align: center;
   padding: 20px;
-  background-color: #e0e0e0; /* Antes gris oscuro #7d7d7d, ahora gris claro */
+  background-color: #e0e0e0; /* Gris claro */
 }
 .banner__title {
   margin: 0;
@@ -76,6 +80,7 @@ header .container {
 .product__name {
   font-size: 1.2rem;
   margin-top: 10px;
+  color: #222222;
 }
 .product__price {
   margin-top: 5px;
@@ -83,21 +88,24 @@ header .container {
 
 .cart {
   padding: 20px;
-  background-color: #fefefe; /* Antes #f9f9f9 */
+  background-color: #fefefe; /* Blanco suave */
 }
 .cart__title {
   font-size: 1.8rem;
   margin-bottom: 20px;
   text-align: center;
+  color: #4a90e2; /* Azul primario */
 }
 .cart__item--imagen {
   width: 60px;
   height: 60px;
   border-radius: 5px;
 }
-.cart__item--name, .cart__item--price {
+.cart__item--name, 
+.cart__item--price {
   font-size: 1rem;
   margin: 0 10px;
+  color: #333333;
 }
 .cart__item button {
   background: none;
