@@ -4,20 +4,20 @@
 
 .banner__title--description {
   font-size: 1rem;
-  color: #fff;
+  color: #333; /* Antes blanco, ahora gris oscuro para contraste con fondo claro */
 }
 
 .product__price {
   font-size: 1rem;
-  color: #fefefe;
+  color: #444; /* Antes #fefefe */
 }
 
 .product {
   text-align: center;
-  border: 1px solid #fefefe;
+  border: 1px solid #ccc; /* Antes #fefefe */
   padding: 15px;
   border-radius: 10px;
-  background-color: #923a3a;
+  background-color: #f2dede; /* Antes #923a3a (rojo oscuro), ahora un tono pastel suave */
 }
 
 .cart__item {
@@ -36,6 +36,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #fafafa; /* Fondo general más claro */
+  color: #222; /* Texto base */
 }
 
 header .container {
@@ -54,7 +56,7 @@ header .container {
 .banner {
   text-align: center;
   padding: 20px;
-  background-color: #7d7d7d;
+  background-color: #e0e0e0; /* Antes gris oscuro #7d7d7d, ahora gris claro */
 }
 .banner__title {
   margin: 0;
@@ -81,7 +83,7 @@ header .container {
 
 .cart {
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #fefefe; /* Antes #f9f9f9 */
 }
 .cart__title {
   font-size: 1.8rem;
@@ -163,4 +165,5 @@ header .container {
     width: 50px;
     height: 50px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+/*# sourceMappingURL=styles.css.map */
